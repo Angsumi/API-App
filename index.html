@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Academic Record -->
+    <div>
+        <h2>Academic Record</h2>
+        10th Percentage: <input type="number" id="tenthPerc">
+        <br>
+        12th Percentage: <input type="number" id="twelfthPerc">
+        <br>
+        Bachelors Percentage: <input type="number" id="bachelorsPerc">
+        <br>
+        Masters Percentage: <input type="number" id="mastersPerc">
+    </div>
+
+    <!-- Research Record -->
+    <div>
+        <h2>Research Record</h2>
+        Do you have a PhD? <input type="checkbox" id="phd">
+        <br>
+        Do you have an Mphil? <input type="checkbox" id="mphil">
+        <br>
+        UGC Listed Papers: <input type="number" id="ugcPapers">
+        <br>
+        Scopus Listed Papers: <input type="number" id="scopusPapers">
+        <br>
+        Book Chapters with ISBN: <input type="number" id="bookChapters">
+    </div>
+
+    <!-- Other Experience Record -->
+    <div>
+        <h2>Other Experience Record</h2>
+        Teaching Experience (in years): <input type="number" id="teachingExp">
+        <br>
+        NCC 'C' Certificate: <input type="checkbox" id="nccC">
+        <br>
+        Gold Medal in University/Youth Fest: <input type="checkbox" id="goldMedal">
+        <br>
+        Represented Assam in National/International Sport: <input type="checkbox" id="sportRep">
+    </div>
+
+    <!-- Calculate Button -->
+    <button onclick="calculateMarks()">Calculate Marks</button>
+
+    <!-- Result Display -->
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+  <p style="font-size: small;">app is made by Angsuman Das</p>
+
+</body>
+</html>
